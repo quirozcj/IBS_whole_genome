@@ -1,11 +1,11 @@
 # IBSplot
 
-## Build haplotypes directly from the IBSpy output ".tsv.gz" file using the 100,000 bp windows:
+## Build haplotypes directly from the IBSpy output ".tsv.gz" file using 100,000 bp windows:
 
 	Use the python script: HapGMMbuild.py
 	Or adjust the bash script to your folder paths and arguments: run_HapGMMbuild.sh
 
-### Run the code in the command line as the follow example for 100,000 bp windows and 400 count using symattis and flame samples:
+### Run the code in the command line as the follow example for 100,000 bp windows and 400 count filter using symattis and flame samples:
 NOTE: you will need to adjust the windows and filters according to the input data of the reference and query samples.
 
 ```sh
